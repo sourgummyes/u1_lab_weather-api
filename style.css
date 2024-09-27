@@ -1,0 +1,82 @@
+
+
+#currentWeatherTitle{
+    opacity: 0;
+}
+#weatherIcon{
+    width: 2.5rem;
+    margin-top: 0.8rem;
+}
+@media screen and (min-width: 900px) {
+    body{
+        font-size:x-large;  
+        margin: 0 1rem auto;
+        text-align: left;
+    }
+    #regions{
+        font-size:large;
+    }
+    #localTime{
+        font-size: medium;
+    }
+    #weatherIcon, #weatherName{
+        float:left;
+    }
+    #currentWeatherTitle{
+        margin-top: -0.7rem;
+    }
+    #weatherIcon{
+        width:80px;
+        margin-top: -2.9rem;
+    }
+    #weatherName{
+        margin-top: -1.5rem;
+    }
+    #regions{
+        font-size:medium;
+        margin-top: -1.2rem;
+    }
+    #localTime{
+        font-size:small;
+        margin-top: -0.5rem;
+    }
+    #temperature{
+        font-size:large;
+        text-align:left;
+        margin-left: 20rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    body{
+        font-size:x-large;
+        margin: auto;
+        text-align: center;
+    }
+    #regions{
+        font-size:large;
+        margin-top: -2rem;
+    }
+    #localTime{
+        font-size:medium;
+        margin-top: -0.5rem;
+    }
+    #currentWeatherTitle{
+        margin-top: -0.5rem;
+    }
+    #weatherIcon{
+        width: 100px;
+        margin-top: -2.7rem;
+        float:center;
+    }
+    #weatherName{
+        margin-top: -0.5rem;
+    }
+    #temperature{
+        flow: left;
+        font-size: larger;
+    }
+}
+
+
+
+
